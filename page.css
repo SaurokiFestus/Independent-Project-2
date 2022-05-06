@@ -1,0 +1,35 @@
+.container5{
+    background-color: rgb(26, 16, 16);
+}
+
+.pageImages{
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    width: 100%;
+    gap: 20px;
+}
+
+.item1{
+    grid-column: 1 / 5;
+    /* grid-row: 1 / 2; */
+    
+}
+
+.item2{
+    grid-column: 2 / 5;
+
+}
+
+.item3{
+    grid-column: 3 / 5;
+
+}
+
+.item4{
+    grid-column: 4 / 5;
+
+}
+
+.pageButton{
+
+}
