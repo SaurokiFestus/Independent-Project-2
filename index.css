@@ -44,10 +44,9 @@ header{
     margin-top: 30px;
     align-items: center;
 }
-H1{
-    
-    text-decoration: overline;
-    
+
+H1{ 
+    text-decoration: overline; 
     border-color: rgba(20, 3, 3, 0.664);
     margin: 30px;
 }
