@@ -1,18 +1,21 @@
 *{
     margin: 0;
     padding: 0;
+    font-family: 'Poppins', 'Actor', 'Adamina';
+    border: 2px solid red;
 }
 .container5{
-    background-color: rgb(34, 23, 23);   
+    background-color: rgb(161, 160, 160);   
+    height: 150px;
 }
 .container6{
     background-color: rgb(212, 207, 207);
-    height: 1400px;  
+    height: 1700px;  
 }
 .container7{
     margin-left: 25px;
     margin-top: 25px;
-    background-color: aliceblue;
+    background-color: white;
     border-radius: 10px;
     height: 250px;
     width: 250px;
@@ -22,6 +25,7 @@
     background-color: #000000;
     color: rgb(253, 135, 0);
     height: 30px;
+    border: none;
 }
 .container8{
     display: flex;
@@ -54,16 +58,7 @@
     flex-direction: row; 
     margin-left: 60px;
 }
-.gridContainer3{
-    display: grid;
-    grid-template-columns: repeat(5, 1fr);
-    margin-left: 60px;
-    margin-top: 20px;
-    width: 500px;
-    background-color: aliceblue;
-    border-radius: 8px;
-    box-shadow: 1px 1px 1px;
-}
+
 .gridContainer4{
     display: grid;
     grid-template-columns: repeat(1, 1fr);
@@ -95,6 +90,7 @@
     margin-top: 60px;   
 }
 .gridContainer7{
+    padding-top: 50px;
     display: grid;
     grid-template-columns: repeat(6, 1fr);
     width: 100%;
@@ -113,7 +109,10 @@
     grid-column: 3 / 4;  
 }
 .p5{
+    padding-top: 50px;
     margin-left: 100px; 
+    color: white;
+    font-size: 20px;
 }
 .workWithUs{
     color: #000000;
@@ -152,28 +151,35 @@ h2{
     margin-top: 60px;
     text-decoration: overline;
 }
-.details{
-    grid-column: 6 / 1;   
-}
-.features{
-    grid-column: 5 / 1;
-    grid-row: 3 / 1;   
-}
+
 .pageImages{
-    display: grid;
-    grid-template-columns: repeat(6, 1fr);
-}
-.item1{
-    grid-column: 3 / 4; 
+    display: flex;
+    float: right;
+    padding: 20px;
+    margin-right: 30px;
+    margin: 10px;
 }
 
 .pageButton{
     background-color: #FFAC12;
-    color: black;
-    height: 28px;
-    border-radius: 8px;
+    color: rgb(255, 255, 255);
+    height: 30px;
+    width: 120px;
+    border: none;
+    border-top-right-radius: 8px;
     margin-left: 800px;
 }
+
+.pageButton1{
+    background-color: #FFAC12;
+    color: rgb(255, 255, 255);
+    height: 30px;
+    width: 120px;
+    border: none;
+    border-top-right-radius: 8px;
+    margin-left: 200px;
+}
+
 .image7{
     margin-top: 25px;
 }
@@ -183,4 +189,138 @@ h2{
     margin-left: 20px;
     width: 150px;
     border-top-right-radius: 8px;
+}
+
+
+.section_a {
+    grid-column: 1 / 2;
+    grid-row: 3 / 4;
+    background-color: white;
+    width: 400px;
+    margin-left: 60px;
+    border-radius: 8px;
+    
+}
+
+.details {
+    margin-bottom: 20px;
+    margin-top: 20px;
+    padding-left: 20px;
+}
+
+.lower_section {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    border-top: 1px solid grey;
+    padding-bottom: 0px;
+}
+
+#num_four {
+    border-right: 1px solid grey;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-right: 60px;
+}
+
+#num_two {
+    border-right: 1px solid grey;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-right: 60px;
+}
+#num_two_sharp {
+    border-right: 1px solid grey;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-right: 60px;
+}
+
+#num_one {
+    border-right: 1px solid grey;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-right: 60px;
+}
+
+#num_2007 {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-right: 0px;
+}
+
+.section_b {
+    grid-column: 1 / 2;
+    grid-row: 4 / 5;
+    background-color:white;
+    width: 400px;
+    margin-left: 60px;
+    border-radius: 8px;
+}
+
+.description{
+    margin-bottom: 10px;
+    margin-top: 20px;
+    padding-left: 20px;
+}
+
+.paragraph_description{
+    padding-left: 50px;
+    padding-right: 50px;
+    margin-top: 20px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.p_description {
+    padding-bottom: 10px;
+}
+
+.section_c {
+    grid-column: 1 / 2;
+    grid-row: 5 / 6;
+    background-color: white;
+    width: 400px;
+    margin-left: 60px;
+    border-radius: 8px;
+    margin-top: 30px;
+}
+
+.features {
+    border-bottom: 1px solid grey;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 20px;
+}
+
+.flex_list_sect1 {
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 20px;
+    list-style: none;
+}
+
+.containerSection {
+    display: flex;
+    justify-content: space-between;
+    color: white;
+    padding-right: 100px;
+    padding-left: 100px;
+    border-top: 1px solid gray;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.leftSection{
+    margin-left: 60px;
+    margin-top: 60px;
+}
+
+.rightSection{
+    margin-left: 60px;
+    margin-top: 60px;
+}
+
+.lists{
+    list-style: none;
 }
