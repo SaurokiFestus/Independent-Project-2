@@ -9,20 +9,22 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
 </head>
 <body>
 
-    <div class="container5">
+    <div class="header">
         <div class="pageImages">
-            <div class="item1">New Link</div>
-            <div class="item2">New Link</div>
-            <div class="item3">New Link</div>
-            <div class="item3">New Link</div>
-            <div class="item4">New Link</div>
-            <div><button class="pageButton1">Work with us<span>&#8594</span></button></div>
-
+            <ul id="pageImagesList">
+                <li>Nav</li> 
+                <li>New Link</li> 
+                <li>New Link</li> 
+                <li>New Link</li> 
+                <li>New Link</li> 
+            <li><button class="pageButton1">Work with us<span>&#8594</span></button></li>
+            </ul>
         </div>
-
+        <hr>
         <div class="containerSection">
             <div class="leftSection">
                 <h3>Modern House</h3>
@@ -37,20 +39,49 @@
 
 
     <div class="container6">
-
+       
         <div class="gridContainer2">
-            <div class="image7"> <img src="./images/Property House.png" height="400" width="500"></div>
-            <div class="container7"><p>Kayden Hal<br>Name<br>Phone<br>Email<br>Hello I'm interested in<br> <button class="profileButton">Learn More<span>&#8594</span></button> </p></div>
+            <div class="image7"> <img src="./images/Property House.png" height="500" width="600">
+            <div class="wrapper">
+                <div class="holdersName">
+                    <div class="kaydenDiv">
+                        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQHV9i-fqCDhS5p7vsEh2MU3ZF3qWxIxdb8Uw&usqp=CAU" class="kayden" alt="kayden">
+                    </div>
+                    <div class="kaydenP">
+                        <p class="para1">kayley Hall</p>
+                        <p class="para2">View Profile</p>
+                    </div>
+                </div>
+                <div>
+                    <input type="form" class="inputField" placeholder="Name" required>
+                </div>
+                <div>
+                    <input type="form" class="inputField" placeholder="Phone" required>
+                </div>
+                <div>
+                    <input type="form" class="inputField" placeholder="Email" required>
+                </div>
+                <div>
+                    <input type="form" class="inputField" id="commentSection" placeholder="Hello, I'm interested in..." required>
+                </div>
+                <div>
+                    <button class="profileButton">Learn More<span>&#8594</span></button>
+                </div>
+            </div>
         </div>
+        </div>
+    
 
         <div class="container8">
-        <div> <img src="./images/Rectangle.png" height="50" width="50" class="one"> </div>
-        <div><img src="./images/Rectangle-1.png" height="50" width="50" class="two"></div>
-        <div><img src="./images/Rectangle-2.png" height="50" width="50" class="three"></div>
-        <div><img src="./images/Rectangle-3.png" height="50" width="50" class="four"></div>
-        <div><img src="./images/Rectangle-4.png" height="50" width="50" class="six"></div>
-        <div><img src="./images/Rectangle-5.png" height="50" width="50" class="seven"></div>
-        <div><img src="./images/Rectangle-6.png" height="50" width="50" class="eight"></div>
+        <div> 
+            <img src="./images/Rectangle.png" height="50" width="50" id="one"> 
+        <img src="./images/Rectangle-1.png" height="50" width="50" id="two">
+        <img src="./images/Rectangle-2.png" height="50" width="50" id="three">
+        <img src="./images/Rectangle-3.png" height="50" width="50" id="four">
+        <img src="./images/Rectangle-4.png" height="50" width="50" id="six">
+        <img src="./images/Rectangle-5.png" height="50" width="50" id="seven">
+        <img src="./images/Rectangle-6.png" height="50" width="50" id="eight">
+    </div>
         
         </div>
 
@@ -59,11 +90,11 @@
                 <div>
                     <div class="details"><h3>Details</h3></div>
                     <div class="lower_section">
-                        <div id="num_four">#4</div>
-                        <div id="num_two">2</div>
-                        <div id="num_two_sharp">#2</div>
-                        <div id="num_one">1</div>
-                        <div id="num_2007">2007</div>
+                        <div id="num_four"><i class="fa-solid fa-car"></i>4</div>
+                        <div id="num_two"><i class="fa-solid fa-bath"></i>2</div>
+                        <div id="num_two_sharp"><i class="fa-solid fa-hashtag"></i>2</div>
+                        <div id="num_one"><i class="fa-solid fa-building-columns"></i>1</div>
+                        <div id="num_2007"><i class="fa-regular fa-calendar"></i>2007</div>
                     </div>
                 </div>
             </div>
@@ -74,7 +105,8 @@
                 <div>
                     <div class="description"><h3>Description</h3></div>
                         <div class="lower_section">
-                        <p class="p_description">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nobis est sunt, et similique perspiciatis, odit rerum asperiores cupiditate in iusto, qui exercitationem velit minus minima autem a rem libero ut. <br>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla ipsa fuga doloribus ad odio, reprehenderit, harum fugiat nesciunt minus asperiores quo sit eos temporibus facere dolorum pariatur! Voluptas, at debitis. <br>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Debitis numquam aliquid ducimus exercitationem necessitatibus temporibus natus similique, at suscipit odit maxime delectus amet eius officiis architecto, cupiditate esse aperiam. Aliquam.</p>
+                        <p class="p_description">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Nobis est sunt, et similique perspiciatis, odit rerum asperiores cupiditate in iusto, qui exercitationem velit minus minima autem a rem libero ut. <br>Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure molestiae praesentium natus numquam vel ratione quia dignissimos. Voluptas animi illo, rem repellendus saepe unde dignissimos esse dicta illum pariatur corporis? <br> Lorem ipsum dolor, sit amet consectetur adipisicing elit. Doloribus, nihil. Repellendus consectetur ab sunt dolorem enim, atque, nam placeat eveniet itaque laborum dolore aspernatur, consequatur optio nisi doloremque in culpa.</p>
+                        
                     </div>
                 </div>
 
@@ -116,20 +148,58 @@
 
         <h2>Similar Listings</h2>
 
-        <div class="gridContainer6">
-            
-            <div class="rectangle7"> <img src="./images/Rectangle-7.png" alt="" height="200" width="270">Malto House</div>
-            <div class="rectangle8"> <img src="./images/Rectangle-8.png" alt="" height="200" width="270">Malto House</div>
-            <div class="rectangle9"> <img src="./images/Rectangle-9.png" alt="" height="200" width="270">Malto House</div>
-            <div class="rectangle10"> <img src="./images/Rectangle-10.png" alt="" height="200" width="270">Malto House</div>
-
+        <div class="gridContainer6">   
+            <div class="rectangle77"> 
+               <div class="rectangle"> <img src="./images/Rectangle-7.png" alt="" height="200" width="302"></div> 
+               <div class="maltoHouse">Malto House</div> 
+               <div class="icons">
+                <div class="four"><i class="fa-solid fa-car"></i>4</div>
+                <div class="two"><i class="fa-solid fa-bath"></i>2</div>
+                <div class="twohash"><i class="fa-solid fa-hashtag"></i>2</div>
+            </div>
         </div>
 
-    </div>
+        <div class="rectangle78"> 
+            <div class="rectangle"> <img src="./images/Rectangle-8.png" alt="" height="200" width="302"></div> 
+            <div class="maltoHouse">Malto House</div> 
+            <div class="icons">
+             <div class="four"><i class="fa-solid fa-car"></i>4</div>
+             <div class="two"><i class="fa-solid fa-bath"></i>2</div>
+             <div class="twohash"><i class="fa-solid fa-hashtag"></i>2</div>
+         </div>
+     </div>
+
+     <div class="rectangle79"> 
+        <div class="rectangle"> <img src="./images/Rectangle-9.png" alt="" height="200" width="302"></div> 
+        <div class="maltoHouse">Malto House</div> 
+        <div class="icons">
+         <div class="four"><i class="fa-solid fa-car"></i>4</div>
+         <div class="two"><i class="fa-solid fa-bath"></i>2</div>
+         <div class="twohash"><i class="fa-solid fa-hashtag"></i>2</div>
+     </div>
+ </div>
+
+ <div class="rectangle80"> 
+    <div class="rectangle"> <img src="./images/Rectangle-10.png" alt="" height="200" width="302"></div> 
+    <div class="maltoHouse">Malto House</div> 
+    <div class="icons">
+     <div class="four"><i class="fa-solid fa-car"></i>4</div>
+     <div class="two"><i class="fa-solid fa-bath"></i>2</div>
+     <div class="twohash"><i class="fa-solid fa-hashtag"></i>2</div>
+ </div>
+ </div>
+</div>
+</div>
 
     <div class="container9">
         <p class="p5">Make your dreams a reality<button class="pageButton">Work with us<span>&#8594</span></button> </p>
+        <hr>
 
+        <div id="grid-icons">
+            <i class="fa-brands fa-facebook-f"></i>
+            <i class="fa-brands fa-twitter"></i>
+            <i class="fa-brands fa-instagram"></i>
+        </div>
         <div class="gridContainer7">
         <div class="grid-item12">Column heading<br>Link goes here<br>Link goes here<br>Link goes here<br>Link goes here</div>
         <div class="grid-item13">Column heading<br>Link goes here<br>Link goes here<br>Link goes here<br>Link goes here</div>
